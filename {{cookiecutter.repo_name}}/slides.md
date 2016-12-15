@@ -9,8 +9,10 @@ theme: {{cookiecutter.theme}}
 
 # slides are available online!
 
-- source: [github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}][source]
+- slides: [github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}/slides.html][slides]
 - html notes: [{{cookiecutter.github_username}}.github.io/{{cookiecutter.repo_name}}][html]
+- source: [github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}][source]
 
 [source]: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}
 [html]: https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.repo_name}}
+[slides]: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}/slides.html
