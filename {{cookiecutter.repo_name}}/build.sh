@@ -5,11 +5,11 @@ pandoc slides.md \
     --template=template.html -H header.html
 
 # Make revealjs version of slides
-pandoc --section-divs -t revealjs -s \
-    --template template.revealjs \
+pandoc slides.md \
     -o slides.html \
-    -H header.html \
-    slides.md
+    --section-divs -t revealjs -s \
+    --template template.revealjs \
+    -H header.html
 
 # Automatically add, ask for commit message, and push
 git add .
