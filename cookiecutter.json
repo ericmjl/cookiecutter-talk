@@ -1,7 +1,11 @@
 {
     "title": "My Talk Title",
     "repo_name": "{{cookiecutter.title|lower|replace(' ', '-')}}",
-
+    "github_username": "ericmjl",
+    "author_name": "Eric J. Ma",
+    "author_affiliation": "Department of Biological Engineering, MIT",
+    "talk_date": "",
+    "theme": ["beige", "black", "blood", "league", "moon", "night", "serif", "simple", "sky", "solarized", "white"],
     "_copy_without_render": [
         "revealjs/*"
     ]
