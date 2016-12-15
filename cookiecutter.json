@@ -1,5 +1,7 @@
 {
-    "directory_name": "My Writing Project",
+    "title": "My Talk Title",
+    "repo_name": "{{cookiecutter.title|lower|replace(' ', '-')}}",
+
     "_copy_without_render": [
         "revealjs/*"
     ]
