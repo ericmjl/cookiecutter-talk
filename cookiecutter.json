@@ -1,3 +1,6 @@
 {
-    "directory_name": "My Writing Project"
+    "directory_name": "My Writing Project",
+    "_copy_without_render": [
+        "revealjs/*"
+    ]
 }
