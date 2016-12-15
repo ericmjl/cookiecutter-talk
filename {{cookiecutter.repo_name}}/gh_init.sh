@@ -5,4 +5,5 @@ git remote add origin git@github.com:{{cookiecutter.github_username}}/{{cookiecu
 git add .
 git commit -m "first commit"
 git push -u origin master
+
 rm gh_init.sh
