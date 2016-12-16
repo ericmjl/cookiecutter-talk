@@ -1,8 +1,13 @@
+# Run the SCSS build script
+python revealjs/css/theme/source/compile.py
+
 # Make HTML notes version of slides
 pandoc slides.md \
     -o index.html \
     -c revealjs/css/notes.css \
-    --template=template.html -H header.html
+    --template=template.html \
+    --toc \
+    -H header.html
 
 # Make revealjs version of slides
 pandoc slides.md \
