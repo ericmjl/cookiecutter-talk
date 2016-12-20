@@ -15,4 +15,4 @@ theme: {{cookiecutter.theme}}
 
 [source]: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}
 [html]: https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.repo_name}}
-[slides]: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}/slides.html
+[slides]: https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.repo_name}}/slides.html
