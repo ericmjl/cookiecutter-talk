@@ -14,3 +14,7 @@ h1.title{
 code {
     background-color: #e8e8e8;
 }
+
+img {
+    max-width: 800px;
+}
